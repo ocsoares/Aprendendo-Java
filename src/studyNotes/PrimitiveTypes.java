@@ -21,5 +21,7 @@ public class PrimitiveTypes {
         System.out.println("isTrue:" + isTrue);
         System.out.println("isFalse:" + isFalse);
         System.out.println("gender:" + gender);
+
+        System.out.println("APAGAR");
     }
 }
