@@ -16,7 +16,7 @@ public class Loops {
         System.out.println("\n");
 
         String[] anyNames = {"Eduardo", "Fernando", "Hugo", "João"};
- 
+
         for (String value : anyNames) {
             System.out.println("Nome: " + value);
         }
