@@ -65,6 +65,26 @@ public class Arrays {
         System.out.println("anyNumbers Índice 0: " + anyNumbers[0]);
         // e o println dos outros arrays...
 
+        System.out.println("\n");
+
         // --------------------------------------------------------------
+
+        // -----
+
+        // ------- Arrays MULTIDIMENSIONAIS -------
+
+        int[][] anotherAnyNumbers = {{20, 30}, {50, 200, 12}, {600, 30, 910}};
+
+        System.out.println("anotherAnyNumbers no Índice 1, 0: " + anotherAnyNumbers[1][0]);
+        System.out.println("anotherAnyNumbers no Índice 1, 1: " + anotherAnyNumbers[1][1]);
+        System.out.println("anotherAnyNumbers no Índice 1, 2: " + anotherAnyNumbers[1][2]);
+
+        // forEach do Java
+        for (int[] selectedArray : anotherAnyNumbers) {
+            for (int value : selectedArray) {
+                System.out.println("Value: " + value);
+            }
+            System.out.println("-------");
+        }
     }
 }
