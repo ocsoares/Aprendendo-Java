@@ -12,6 +12,8 @@ public class PrimitiveTypes {
         boolean isFalse = false;
         char gender = 'M';
 
+        String personName = "Pedro Afonso";
+
         System.out.println("personAge:" + personAge);
         System.out.println("accumulatedMoney:" + accumulatedMoney);
         System.out.println("salaryInDouble:" + salaryInDouble);
@@ -21,5 +23,7 @@ public class PrimitiveTypes {
         System.out.println("isTrue:" + isTrue);
         System.out.println("isFalse:" + isFalse);
         System.out.println("gender:" + gender);
+
+        System.out.println(personName);
     }
 }
