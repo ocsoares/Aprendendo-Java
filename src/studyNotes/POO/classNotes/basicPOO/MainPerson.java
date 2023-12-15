@@ -1,4 +1,4 @@
-package studyNotes.POO.classNotes;
+package studyNotes.POO.classNotes.basicPOO;
 
 public class MainPerson {
     public static void main(String[] args) {

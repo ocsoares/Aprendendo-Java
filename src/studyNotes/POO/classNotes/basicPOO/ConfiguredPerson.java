@@ -1,4 +1,4 @@
-package studyNotes.POO.classNotes;
+package studyNotes.POO.classNotes.basicPOO;
 
 public class ConfiguredPerson {
     public String name = "Gustavo Souza";
