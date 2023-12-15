@@ -25,5 +25,7 @@ public class MainPerson {
 
         boolean isOfLegalAge = person.isOfLegalAge(21);
         System.out.println("isOfLegalAge: " + isOfLegalAge);
+
+        System.out.println("Test");
     }
 }
