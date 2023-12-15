@@ -8,9 +8,13 @@ public class MainPerson {
         person.job = "Developer";
 
         System.out.println("Referência da Classe: " + person);
-        System.out.println("Person name: " + person.name);
-        System.out.println("Person age: " + person.age);
-        System.out.println("Person job: " + person.job);
+        System.out.println("Person name SEM MÉTODO: " + person.name);
+
+        person.printPerson(person);
+
+        System.out.println("\n");
+
+        person.printPersonWithThisPropsClass();
 
         System.out.println("\n");
 
@@ -26,6 +30,10 @@ public class MainPerson {
         boolean isOfLegalAge = person.isOfLegalAge(21);
         System.out.println("isOfLegalAge: " + isOfLegalAge);
 
-        System.out.println("Test");
+        System.out.println("\n");
+
+        ConfiguredPerson configuredPerson = new ConfiguredPerson();
+
+        configuredPerson.printConfiguredPerson();
     }
 }
