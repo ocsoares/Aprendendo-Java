@@ -5,9 +5,14 @@ public class Man {
     private String name;
 
     // Bloco de Inicialização
+    // OBS: Podem ter VÁRIOS Blocos de Inicialização, porque eles serão executados em ORDEM!!
     {
         System.out.println("Executando o Bloco de inicialização !!");
         this.age = 200;
+    }
+
+    {
+        System.out.println("Executando o Bloco de inicialização DOIS !!");
     }
 
     public Man() {
