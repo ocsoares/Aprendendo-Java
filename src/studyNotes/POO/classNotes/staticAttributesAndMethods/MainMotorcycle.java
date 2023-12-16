@@ -1,4 +1,4 @@
-package studyNotes.POO.classNotes.staticAttributes;
+package studyNotes.POO.classNotes.staticAttributesAndMethods;
 
 public class MainMotorcycle {
     public static void main(String[] args) {

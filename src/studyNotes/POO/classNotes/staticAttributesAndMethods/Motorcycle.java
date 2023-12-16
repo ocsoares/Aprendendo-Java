@@ -1,4 +1,4 @@
-package studyNotes.POO.classNotes.staticAttributes;
+package studyNotes.POO.classNotes.staticAttributesAndMethods;
 
 public class Motorcycle {
     // IMPORTANTE: Usar Atributos/Métodos STATIC quando esses NÃO forem utilizados para cada
@@ -16,6 +16,15 @@ public class Motorcycle {
     // Instâncias da Classe, pois agora é uma Propriedade da CLASSE, e não de Instâncias!!!
     private static int maxSpeed = 250;
 
+    // O Bloco de Inicialização também pode ser STATIC, mas assim ele só será executado apenas
+    // UMA VEZ, ANTES de TUDO!!!
+    // ----------------------------------
+    // OBS: Podem ter VÁRIOS Blocos de Inicialização STATIC, porque eles serão executados na
+    // ORDEM em que foram declarados!!
+    static {
+        System.out.println("Executando o Bloco de Inicialização !");
+    }
+    
     public Motorcycle(String brand, int year) {
         this.brand = brand;
         this.year = year;
