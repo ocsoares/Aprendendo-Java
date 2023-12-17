@@ -1,14 +1,14 @@
 package studyNotes.POO.classNotes.basicPOO;
 
 public class ConfiguredPerson {
-    public String name = "Gustavo Souza";
-    public int age = 37;
-    public String job = "Jardineiro";
+    public static final String NAME = "Gustavo Souza";
+    public static final int AGE = 37;
+    public static final String JOB = "Jardineiro";
 
     // Também Funciona SEM o "this", mas é Recomendado USAR por Semântica!!!
     public void printConfiguredPerson() {
-        System.out.println("ConfiguredPerson name: " + this.name);
-        System.out.println("ConfiguredPerson age: " + age);
-        System.out.println("ConfiguredPerson job: " + this.job);
+        System.out.println("ConfiguredPerson name: " + ConfiguredPerson.NAME);
+        System.out.println("ConfiguredPerson age: " + ConfiguredPerson.AGE);
+        System.out.println("ConfiguredPerson job: " + ConfiguredPerson.JOB);
     }
 }
