@@ -7,5 +7,8 @@ public class MainDeveloper {
 
         Developer developer = new Developer("Hugo Ribeiro", 33, 8700.21);
         System.out.println(developer);
+        developer.personMethod();
+        developer.workerMethod();
+        developer.jobDescription();
     }
 }
