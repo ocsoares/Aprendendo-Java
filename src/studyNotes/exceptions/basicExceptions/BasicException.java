@@ -1,4 +1,4 @@
-package studyNotes.exceptions;
+package studyNotes.exceptions.basicExceptions;
 
 import java.io.IOException;
 
@@ -41,16 +41,14 @@ public class BasicException {
     // OBS2: Também É POSSÍVEL usar VÁRIOS "throws" no Método!!!
     public static void severalExceptions() throws ArrayIndexOutOfBoundsException, IllegalArgumentException,
             ArithmeticException {
+
+        // Nesse exemplo de "Multi catch em linha", as Exceptions na Mesma Linha NÃO podem ter a Mesma HERANÇA!!!
         try {
             System.out.println("Faz algo no severalExceptions...");
-        } catch (ArrayIndexOutOfBoundsException exception) {
-            System.out.println("Catch ArrayIndexOutOfBoundsException");
-        } catch (IllegalArgumentException exception) {
-            System.out.println("Catch IllegalArgumentException");
-        } catch (ArithmeticException exception) {
-            System.out.println("Catch ArithmeticException");
+        } catch (ArrayIndexOutOfBoundsException | IllegalArgumentException | ArithmeticException exception) {
+            System.out.println("Exception entre VÁRIAS Exceptions: " + exception);
         } catch (RuntimeException exception) {
-            System.out.println("Catch RuntimeException");
+            System.out.println("Catch RuntimeException !!" + exception);
         }
     }
 }

@@ -1,4 +1,4 @@
-package studyNotes.exceptions;
+package studyNotes.exceptions.basicExceptions;
 
 import java.io.IOException;
 
