@@ -1,4 +1,4 @@
-package studyNotes.time;
+package studyNotes.datesAndTimes.time;
 
 import java.time.LocalTime;
 
