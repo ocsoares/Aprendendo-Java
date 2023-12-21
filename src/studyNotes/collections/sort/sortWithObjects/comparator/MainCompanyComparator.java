@@ -20,7 +20,6 @@ public class MainCompanyComparator {
 
         companyList.sort(new CompanyComparatorByName());
 
-        // NÃO sei se esse aqui tá certo, ARRUMAR!!!!
         for (CompanyComparable company : companyList) {
             System.out.println("company DEPOIS do sort pelo NAME: " + company);
         }
