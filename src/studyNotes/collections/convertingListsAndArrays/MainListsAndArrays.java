@@ -1,4 +1,4 @@
-package studyNotes.convertingListsAndArrays;
+package studyNotes.collections.convertingListsAndArrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
