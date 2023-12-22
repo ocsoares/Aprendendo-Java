@@ -1,4 +1,4 @@
-package studyNotes.collections.map;
+package studyNotes.collections.map.map;
 
 import java.util.HashMap;
 import java.util.Map;
