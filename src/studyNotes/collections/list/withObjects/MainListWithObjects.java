@@ -22,6 +22,15 @@ public class MainListWithObjects {
 
         System.out.println("\n");
 
+        // Forma mais FÁCIL de colocar vários Objetos na Lista!!
+        List<Fruit> otherFruitList = List.of(apple, lemon, cherry);
+
+        for (Fruit fruit : otherFruitList) {
+            System.out.println("Fruta de otherFruitList: " + fruit);
+        }
+
+        System.out.println("\n");
+
         // O "contains" utiliza o "equals", então para o Código abaixo funcionar, tem que SOBRESCREVER
         // esse Método BUSCANDO algum Atributo!!
         Fruit otherApple = new Fruit("Apple", 2.43, false);
