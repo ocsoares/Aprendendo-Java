@@ -29,6 +29,8 @@ public class MainPredicate {
 
     // Também pode usar a minha Interface "PredicateInterface" ia dar na MESMA, mas é que usar "Predicate<>" já tem
     // Vários Métodos PRONTOS e é mais Genérico!!!
+    // --------------------------------------------------------------------------------------------------------------
+    // OBS: Também pode usar o "BiPredicate" para passar DOIS Argumentos!!!f
     private static List<Fruit> filterFruitIfExpired(List<Fruit> fruitList, Predicate<Fruit> predicateInterface) {
         List<Fruit> fruitListFiltered = new ArrayList<>();
 
