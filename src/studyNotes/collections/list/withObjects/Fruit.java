@@ -38,4 +38,12 @@ public class Fruit {
                 ", isExpired=" + isExpired +
                 '}';
     }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public boolean isExpired() {
+        return isExpired;
+    }
 }
