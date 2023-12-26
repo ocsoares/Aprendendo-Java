@@ -6,7 +6,6 @@ public class Fruit {
     private final String name;
     private final double price;
     private final boolean isExpired;
-
     public Fruit(String name, double price, boolean isExpired) {
         this.name = name;
         this.price = price;
@@ -37,6 +36,10 @@ public class Fruit {
                 ", price=" + price +
                 ", isExpired=" + isExpired +
                 '}';
+    }
+
+    public String getName() {
+        return name;
     }
 
     public double getPrice() {
